@@ -14,7 +14,7 @@ function inventoryList(){
 
     function getList(){
         if (inventory.length == 0)
-            return console.log('La lista esta vacia');
+            console.log('La lista esta vacia');
         return inventory;
     }
 
